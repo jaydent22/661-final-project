@@ -30,7 +30,11 @@
 -->
 
 ## Goal
+We aim to compare prompting techniques on various datasets with different models, and to gain insight into the difference in performance between different prompting techniques on different models and datasets.
 
+Due to the complexity of natural language, with correct categorization relying on understanding the nuanced context of a word or sentence, text classification is a challenging task for language models with no inherent understanding of language. This challenge is apparent, and even amplified, when attempting to effectively prompt these models for some specific task.
+
+Especially with techniques like zero-shot, few-shot, and chain-of-thought, it becomes imperative to both choose an appropriate technique for the task and design an effective prompt for the model for optimal performance; yet, how can we determine which technique is "appropriate" for our task, and how do we design an "effective" prompt? What determines an "effective" prompt?
 
 ## Methodology
 
